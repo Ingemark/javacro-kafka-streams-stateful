@@ -1,0 +1,9 @@
+com:
+  ingemark:
+    simpletransformer:
+      kafka:
+        application-id: "java-cro-simple-transform"
+        bootstrap-servers: "localhost:9092"
+        purchase-source-topic: "purchase"
+        enriched-purchase-sink-topic: "enriched-purchase"
+        loyalty-limit: 5000

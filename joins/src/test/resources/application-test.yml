@@ -1,0 +1,11 @@
+com:
+  ingemark:
+    joins:
+      kafka:
+        application-id: "java-cro-joins"
+        bootstrap-servers: "localhost:9092"
+        purchase-source-topic: "purchase"
+        coffee-purchase-source-topic: "coffee"
+        promotion-sink-topic: "promotion"
+        loyalty-limit: 5000
+        promotion-points: 5

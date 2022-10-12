@@ -1,0 +1,9 @@
+com:
+  ingemark:
+    ktablejoin:
+      kafka:
+        application-id: "java-cro-ktablejoins"
+        bootstrap-servers: "localhost:9092"
+        customer-info-source-topic: "customer"
+        payment-order-source-topic: "payment-order"
+        enriched-payment-order-sink-topic: "enriched-payment"
